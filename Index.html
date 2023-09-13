@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Lists in HTML</title>
+    <style type="text/css">
+        #navBar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: grey;
+        }
+        .navItem {
+            float: left;
+        }
+        .navItem a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+            border: 1px solid white;
+        }
+        .navItem a:hover {
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <ul id="navBar">
+        <li class="navItem"><a href="#home">HOME</a></li>
+        <li class="navItem"><a href="#aboutUs">ABOUT US</a></li>
+        <li class="navItem"><a href="#contactUs">CONTACT US</a></li>
+        <li class="navItem"><a href="#login">LOGIN</a></li>
+        <li class="navItem"><a href="#signup">SIGN UP</a></li>
+    </ul>
+    <h1>Lists in HTML</h1>
+    <h2>Types of Lists</h2>
+    <h3>Unordered List</h3>
+    <h4>List of Programming Languages</h4>
+    <ul style="list-style-type: decimal">
+        <li>C Programming Language</li>
+        <li>C++ (OOP)</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>C#.NET</li>
+    </ul>
+    <h4>List of Web Technologies</h4>
+    <ol style="list-style-type: disc;">
+        <li>HTML, CSS and JavaScript</li>
+        <li>ReactJS</li>
+        <li>NodeJS</li>
+        <li>PHP</li>
+        <li>ASP.NET</li>
+        <li>JSP</li>
+        <li>Python Django</li>
+    </ol>
+    <h3>Description List</h3>
+    <h4>Programming Languages and their description</h4>
+    <dl>
+        <dt>C Programming Language</dt>
+        <dd>The language was developed by Dennis Ritchie in the year 1972</dd>
+        <dt>C++ (Object Oriented Programming) OOP Language</dt>
+        <dd>The language was developed by Bjarne Stroustrup in the year 1978</dd>
+        <dt>Java Programming Language</dt>
+        <dd>The language was developed by James Gosline in the year 1991</dd>
+        <dt>Python Programming Language</dt>
+        <dd>The language was developed by Guido van Rossom in the year 1991</dd>
+    </dl>
+    <h3>Nested Lists</h3>
+    <ul>
+        <li>List of Programming Languages
+            <ul>
+                <li>C Programming Language</li>
+                <li>C++ (OOP)</li>
+                <li>Java</li>
+                <li>Python</li>
+                <li>C#.NET</li>
+            </ul>
+        </li>
+        <li>List of Web Technologies
+            <ol>
+                <li>HTML, CSS and JavaScript</li>
+                <li>ReactJS</li>
+                <li>NodeJS</li>
+                <li>PHP</li>
+                <li>ASP.NET</li>
+                <li>JSP</li>
+                <li>Python Django</li>
+            </ol>
+        </li>
+        <li>Programming Languages and their description
+            <dl>
+                <dt>C Programming Language</dt>
+                <dd>The language was developed by Dennis Ritchie in the year 1972</dd>
+                <dt>C++ (Object Oriented Programming) OOP Language</dt>
+                <dd>The language was developed by Bjarne Stroustrup in the year 1978</dd>
+                <dt>Java Programming Language</dt>
+                <dd>The language was developed by James Gosline in the year 1991</dd>
+                <dt>Python Programming Language</dt>
+                <dd>The language was developed by Guido van Rossom in the year 1991</dd>
+            </dl>
+        </li>
+    </ul>
+</body>
+</html>
